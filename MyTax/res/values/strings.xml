@@ -1,17 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">MyTax</string>
     <string name="action_settings">Settings</string>
     <string name="Query">Calculate Tax</string>
-
     <string name="Years"></string>
-    <string name="Incomess"></string>
-    <string name="Withhs"></string>
-    <string name="Deducs"></string>
+    <string name="Incomess">Incomes</string>
+    <string name="Withhs">Withholdings</string>
+    <string name="Deducs">Deductions</string>
     <string name="Taxables"></string>
     <string name="Isrs"></string>
     <string name="Balances"></string>
-
     <string name="Yearl">Year</string>
     <string name="Incomesl">Incomes</string>
     <string name="Withhl">Withholding</string>
@@ -19,7 +18,24 @@
     <string name="Taxablel">Taxable Amount</string>
     <string name="Isrl">ISR</string>
     <string name="Balancel">Balance</string>
-    
     <string name="path">/data/data/com.master.mytax/databases/</string>
-    
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="FY">Fiscal Year</string>
+    <string name="calculateTxWDeducs">Calculate Taxes Without Deductions</string>
+    <string name="calculateTxDeducs">Calculate Taxes with Deductions</string>
+    <string name="usersettings">UserSettings</string>
+    <string name="enablepwd">Enable Password</string>
+    <string name="pwd">Password</string>
+    <string name="confirmpwd">Confirm Password</string>
+    <string name="state">State</string>
+    <string name="municipality">Municipality</string>
+    <string name="title_activity_deductions_table">DeductionsTable</string>
+    <string name="updateusersettings">Update Settings</string>
+    <string name="previous">Prev</string>
+    <string name="next">Next</string>
+    <string name="add">New</string>
+    <string name="remove">Delete</string>
+    <string name="edit">Edit</string>
+
 </resources>

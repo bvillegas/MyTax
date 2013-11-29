@@ -1,0 +1,433 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DeductionsTable" >
+
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        android:layout_marginTop="80dp">
+
+    
+        
+        
+        
+        
+        
+        
+        <TableLayout
+        android:id="@+id/tlTable01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC"
+        android:paddingTop="1dp"
+        android:stretchColumns="0" >
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item1" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="123456" />
+        </TableRow>
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="Item2" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="456789" />
+        </TableRow>
+    </TableLayout>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ScrollView>
+    
+    
+    
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+         android:layout_alignBottom="@+id/scrollView1"
+        android:text="@string/previous"
+        android:textSize="13sp" />
+    
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/btnPrev"
+        android:layout_toRightOf="@+id/btnPrev"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_add" />
+    
+    
+    <ImageButton
+        android:id="@+id/btnRemove"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:contentDescription="@string/remove"
+        android:src="@drawable/ic_remove"  />
+    
+       
+    
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/btnRemove"
+        android:layout_toRightOf="@+id/btnRemove"
+        android:contentDescription="@string/edit"
+        android:src="@drawable/ic_edit" />
+    
+    
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/btnEdit"
+        android:layout_toRightOf="@+id/btnEdit"
+        android:text="@string/next"
+        android:textSize="13sp" />
+    
+    
+    
+    
+    
+    
+    <TableLayout
+        android:id="@+id/tlTable70"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrev"
+        android:background="#CCC"
+        android:paddingTop="1dp"
+        android:stretchColumns="0" >
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="ITEMADLKJA" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Jorg Origel" />
+        </TableRow>
+        
+    </TableLayout>
+
+    
+
+    
+
+</RelativeLayout>

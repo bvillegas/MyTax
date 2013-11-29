@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UserSettings" >
+
+    
+    
+    <Switch
+        android:id="@+id/switchPWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/enablepwd" 
+        android:onClick="onSwitchClicked"/>
+    
+    
+    <TextView
+        android:id="@+id/lblPwd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/switchPWD"
+        android:layout_below="@+id/switchPWD"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/pwd"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtPWD1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblPwd"
+        android:layout_alignBottom="@+id/lblPwd"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:maxLength="4"
+        android:inputType="numberPassword" >
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/lblConfPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblPwd"
+        android:layout_below="@+id/txtPWD1"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirmpwd"
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/txtPWD2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblConfPwd"
+        android:layout_alignBottom="@+id/lblConfPwd"
+        android:layout_alignRight="@+id/txtPWD1"
+        android:ems="10"
+        android:maxLength="4"
+        android:inputType="numberPassword" />
+
+    
+
+    <TextView
+        android:id="@+id/lblState"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblConfPwd"
+        android:layout_alignTop="@+id/spnState"
+        android:text="@string/state"
+        android:textSize="16sp" />
+    
+    <Spinner
+        android:id="@+id/spnState"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/lblMunicipality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblState"
+        android:layout_below="@+id/spnState"
+        android:text="@string/municipality" 
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <Spinner
+        android:id="@+id/spnMunicipality"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/spnState"
+        android:layout_below="@+id/lblState"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnUpdUserSettings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spnMunicipality"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/updateusersettings" />
+
+</RelativeLayout>
