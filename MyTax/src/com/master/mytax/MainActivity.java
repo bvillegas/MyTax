@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	public void onClick(View view) {
 
 	    switch (view.getId()) {
-	    	case R.id.query: //calculateT(2013);
+	    	case R.id.query: calculateT(2013);
 	    					//read_user();
 	    		break;
 	    }

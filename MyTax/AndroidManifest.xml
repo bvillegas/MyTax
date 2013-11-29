@@ -14,26 +14,29 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.master.mytax.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.master.mytax.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.master.mytax.HomePage"
-            android:label="@string/app_name" >
-            
-        </activity>
-        <activity
             android:name="com.master.mytax.UserSettings"
             android:label="@string/app_name" >
-            
         </activity>
         <activity
             android:name="com.master.mytax.DeductionsTable"
             android:label="@string/title_activity_deductions_table" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.master.mytax.AddDeduction"
+            android:label="@string/title_activity_add_deduction" >
         </activity>
     </application>
 

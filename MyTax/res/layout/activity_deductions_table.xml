@@ -8,27 +8,66 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DeductionsTable" >
 
-    
-    <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" 
-        android:layout_marginTop="80dp">
-
-    
-        
-        
-        
-        
-        
-        
-        <TableLayout
-        android:id="@+id/tlTable01"
+    <TableLayout
+        android:id="@+id/tblHeader"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:background="#CCC"
         android:paddingTop="1dp"
         android:stretchColumns="0" >
+
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp" >
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:text="@string/type" />
+
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="@string/date" />
+            
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="@string/annualamount" />
+                
+                
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:background="#FFF"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="@string/select" />
+        </TableRow>
+        
+    </TableLayout>
+    
+    
+    
+    <ScrollView
+        android:id="@+id/scrollVw"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_below="@+id/tblHeader">
+        
+        <TableLayout
+            android:id="@+id/tblDeductions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCC"
+            android:paddingTop="1dp"
+            android:stretchColumns="0" >
 
         <TableRow
             android:background="#CCC"
@@ -327,49 +366,28 @@
                 android:text="456789" />
         </TableRow>
     </TableLayout>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </ScrollView>
-    
-    
-    
-    <Button
-        android:id="@+id/btnPrev"
+
+    <ImageButton
+        android:id="@+id/btnRemove"
         android:layout_width="65dp"
         android:layout_height="45dp"
-         android:layout_alignBottom="@+id/scrollView1"
-        android:text="@string/previous"
-        android:textSize="13sp" />
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/scrollVw"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButton"
+        android:contentDescription="@string/remove"
+        android:src="@drawable/ic_remove"  />
     
     <ImageButton
         android:id="@+id/btnAdd"
         android:layout_width="65dp"
         android:layout_height="45dp"
-        android:layout_alignBottom="@+id/btnPrev"
-        android:layout_toRightOf="@+id/btnPrev"
+        android:layout_alignBottom="@+id/btnRemove"
+        android:layout_toLeftOf="@+id/btnRemove"
+        android:onClick="onClickButton"
         android:contentDescription="@string/add"
         android:src="@drawable/ic_add" />
-    
-    
-    <ImageButton
-        android:id="@+id/btnRemove"
-        android:layout_width="65dp"
-        android:layout_height="45dp"
-        android:layout_alignBottom="@+id/btnAdd"
-        android:layout_toRightOf="@+id/btnAdd"
-        android:contentDescription="@string/remove"
-        android:src="@drawable/ic_remove"  />
-    
        
     
     <ImageButton
@@ -379,52 +397,15 @@
         android:layout_alignBottom="@+id/btnRemove"
         android:layout_toRightOf="@+id/btnRemove"
         android:contentDescription="@string/edit"
+        android:onClick="onClickButton"
         android:src="@drawable/ic_edit" />
     
     
-    <Button
-        android:id="@+id/btnNext"
-        android:layout_width="65dp"
-        android:layout_height="45dp"
-        android:layout_alignBottom="@+id/btnEdit"
-        android:layout_toRightOf="@+id/btnEdit"
-        android:text="@string/next"
-        android:textSize="13sp" />
     
     
     
     
     
-    
-    <TableLayout
-        android:id="@+id/tlTable70"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnPrev"
-        android:background="#CCC"
-        android:paddingTop="1dp"
-        android:stretchColumns="0" >
-
-        <TableRow
-            android:background="#CCC"
-            android:paddingBottom="1dp"
-            android:paddingRight="1dp" >
-
-            <TextView
-                android:layout_marginLeft="1dp"
-                android:background="#FFF"
-                android:padding="5dp"
-                android:text="ITEMADLKJA" />
-
-            <TextView
-                android:layout_marginLeft="1dp"
-                android:background="#FFF"
-                android:gravity="right"
-                android:padding="5dp"
-                android:text="Jorg Origel" />
-        </TableRow>
-        
-    </TableLayout>
 
     
 

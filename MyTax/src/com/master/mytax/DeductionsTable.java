@@ -2,7 +2,9 @@ package com.master.mytax;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class DeductionsTable extends Activity {
 
@@ -21,6 +23,25 @@ public class DeductionsTable extends Activity {
 	}
 	
 	protected void fnInitialize(){
+		
+	}
+	
+	
+	/**
+	 * 
+	 * @param view
+	 */
+	
+	public void onClickButton(View view){
+		
+		
+		     if(view.getId() == R.id.btnAdd    ){ 
+		    	 Intent i  = new Intent(getBaseContext(),AddDeduction.class); 
+		    	 startActivity(i);
+		    	 }
+		else if(view.getId() == R.id.btnRemove ){ }
+		else if(view.getId() == R.id.btnEdit   ){ } 
+				
 		
 	}
 

@@ -73,11 +73,19 @@ public class HomePage extends Activity {
 	
 	
 	/**
-	 * Setup Image Icon
 	 * @param view
 	 */
 	public void clickSetup(View view){
-		Intent i = new Intent(getBaseContext(),UserSettings.class);
+		Intent i = new Intent();
+		
+		     if(view.getId() == R.id.btnIncomes        ) i = new Intent(getBaseContext(),UserSettings   .class);
+		else if(view.getId() == R.id.btnWithholdings   ) i = new Intent(getBaseContext(),UserSettings   .class);
+		else if(view.getId() == R.id.btnDeducs         ) i = new Intent(getBaseContext(),DeductionsTable.class);
+		else if(view.getId() == R.id.btnTxDeducs       ) i = new Intent(getBaseContext(),MainActivity   .class);
+		else if(view.getId() == R.id.btnTxWDeducs      ) i = new Intent(getBaseContext(),MainActivity   .class);
+		
+		else if(view.getId() == R.id.btnSetup          ) i = new Intent(getBaseContext(),UserSettings   .class);
+		
 		startActivity(i);
 	}
 

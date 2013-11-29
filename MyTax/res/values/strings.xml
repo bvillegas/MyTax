@@ -37,5 +37,16 @@
     <string name="add">New</string>
     <string name="remove">Delete</string>
     <string name="edit">Edit</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="annualamount">Annual Amount</string>
+    <string name="select">Select</string>
+    <string name="title_activity_add_deduction">AddDeduction</string>
+    <string name="deductionType">Deduction Type</string>
+    <string name="amount">Amount</string>
+    <string name="months">Months</string>
+    <string name="comments">Comments</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
