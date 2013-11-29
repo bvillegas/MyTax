@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+        <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Query" 
+        android:onClick="onClick"/>
+
+       <TextView
+           android:id="@+id/Yearl"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/query"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Yearl"
+           android:textSize="16sp" />
+       
+       <EditText
+           android:id="@+id/Year"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Yearl"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_black_border_full"
+           android:ems="4"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Years"
+           android:textSize="16sp" />
+        
+       <TextView
+           android:id="@+id/Incomesl"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Year"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Incomesl" />
+       
+       <EditText
+           android:id="@+id/Incomes"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Incomesl"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Incomess"
+           android:textSize="16sp" />
+       
+       <TextView
+           android:id="@+id/Withhl"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Incomes"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Withhl" />
+       
+       <EditText
+           android:id="@+id/Withh"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Withhl"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Withhs"
+           android:textSize="16sp" />
+       
+
+       <TextView
+           android:id="@+id/Deducl"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/Withh"
+           android:text="@string/Deducl" />
+
+       <EditText
+           android:id="@+id/Deduc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/Deducl"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Deducs"
+           android:textSize="16sp" />
+
+       <TextView
+           android:id="@+id/Taxablel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Deduc"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Taxablel" />
+
+       <EditText
+           android:id="@+id/Taxable"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Taxablel"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Taxables"
+           android:textSize="16sp" />
+
+
+       <TextView
+           android:id="@+id/Isrl"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Taxable"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Isrl" />
+
+       <EditText
+           android:id="@+id/Isr"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/Isrl"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Isrs"
+           android:textSize="16sp" />
+       
+       <TextView
+           android:id="@+id/Balancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Isr"
+           android:layout_centerHorizontal="true"
+           android:text="@string/Balancel" />
+
+
+       <EditText
+           android:id="@+id/Balance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/Balancel"
+           android:background="@drawable/background_black_border_full"
+           android:ems="10"
+           android:enabled="false"
+           android:inputType="number"
+           android:paddingBottom="5dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp"
+           android:text="@string/Balances"
+           android:textSize="16sp" />
+
+       
+</RelativeLayout>
